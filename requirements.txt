@@ -1,0 +1,56 @@
+torch>=2
+torchaudio>=2
+faster-whisper==1.0.0
+transformers
+pandas
+setuptools>=65
+nltk
+# Computer vision and image processing
+opencv-python-headless
+# YOLOv8 and object detection
+ultralytics
+# Object tracking and Deep SORT
+imutils
+deep_sort_realtime
+# Numeric computations
+numpy
+pandas
+pyarrow 
+scikit-learn
+ipykernel
+scikit-image
+
+# For textgrid processing
+textgrid
+praat-parselmouth
+
+
+############ FOR FMRI PART ############
+ipykernel
+
+# Basic scientific computing
+numpy
+scipy
+pandas
+
+matplotlib
+
+# Neuroimaging data handling
+nibabel
+nilearn  # Optional, for additional neuroimaging utilities
+
+# Image processing and transformations
+Pillow
+
+# Machine learning (if needed)
+scikit-learn
+
+# Deep learning framework (if using neural networks)
+torch
+torchvision
+
+# System utilities for interacting with shell commands
+subprocess32  # Only for Python 2; in Python 3, subprocess is built-in
+
+# Optional: FSL, ANTs, FreeSurfer are typically installed separately as system software
+
